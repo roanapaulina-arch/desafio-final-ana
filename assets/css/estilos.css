@@ -1,0 +1,20 @@
+/* Tipografía y fondo general */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa; /* gris azulado claro */
+  color: #2c2c2c;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(to right, #acbff3, #d7e3fc); /* celeste lavanda suave */
+  color: #333;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 4px solid #a3bffa;
+}
+
+header img {
+  border:

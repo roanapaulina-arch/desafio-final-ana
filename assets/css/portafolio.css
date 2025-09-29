@@ -1,0 +1,76 @@
+/* Tipografía y fondo general */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(to right, #343a40, #495057);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1rem;
+}
+
+/* Tarjetas de proyectos */
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Títulos dentro de las tarjetas */
+.card-title {
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+/* Texto descriptivo */
+.card-text {
+  font-size: 0.95rem;
+  color: #495057;
+}
+
+/* Footer */
+footer {
+  background-color: #e9ecef;
+  color: #6c757d;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+/* Responsive ajustes */
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 160px;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+}
